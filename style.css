@@ -347,12 +347,19 @@ body {
   }
   .footer-form-send {
       display: flex;
-      justify-content: space-around;
+      /*justify-content: space-around;*/
       padding: 0 0 49px 0;
   }
+  .main-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 0 150px;
+  }
+
   .footer-list{
       list-style-type: none;
-      margin: 0 0 0 -408px;
+      flex-direction: column;
+      /*margin: 0 0 0 -408px;*/
   }
 
   .footer-list-item-skype{
@@ -492,15 +499,32 @@ body {
     outline: none;
 
 }
-.footer-img {
+
+/*.footer-img {
     padding-top: 25px;
+}*/
+
+
+.social {
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 134px 0px 0 -162px;
 }
+
+.icon {
+    fill: grey;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+}
+
 .end-copy {
     text-align: center;
     color: #445162;
     padding-top: 10px;
-
 }
+
 input {
     display: block;
 }
